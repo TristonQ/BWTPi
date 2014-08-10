@@ -14,5 +14,5 @@ pencode2 : pencode2.o
 	$(CC) $(CFLAGS) -o pencode2 pencode2.o $(LDFLAGS)
 	
 psearch : psearch.o
-	$(CC) $(CFLAGS) -o psearch.c psearch.o $(LDFLAGS)
+	$(CC) $(CFLAGS) -o psearch psearch.o $(LDFLAGS)
 
